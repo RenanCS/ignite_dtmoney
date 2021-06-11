@@ -24,8 +24,8 @@ O projeto consiste em uma solução Web para o cadastro de crédito e débito no
 
 ## ⚙️ Funcionalidades
 
-- [] Cadastrar Contas
-- [] Filtrar Contas pelo nome
+- [ ] Cadastrar Contas
+- [ ] Filtrar Contas pelo nome
 - [x] Listar Contas
 - [ ] Editar Pacientes
 
@@ -72,28 +72,3 @@ $ yarn start
 - **[Styled-Components](https://styled-components.com/)**
 
 
-> Veja o arquivo [package.json](https://github.com/felipemimoura/interprocess/blob/main/package.json)
-
-
----
-
-## 🦸 Autor
-
-
- <img style="border-radius: 50%;" src="https://github.com/felipemimoura.png" width="100px;" alt=""/>
- <br />
- <sub><b>Felipe Moura</b></sub>
- <br />
-
- [![Linkedin Badge](https://img.shields.io/badge/-FelipeMoura-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipemmoura//)](https://www.linkedin.com/in/felipemmoura/)
-[![Gmail Badge](https://img.shields.io/badge/-felipemimoura@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipemimoura@gmail.com)](mailto:felipemimoura@gmail.com)
-
----
-
-## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito com ❤️ por Felipe Moura 👋🏽 [Entre em contato!](https://www.linkedin.com/in/felipemmoura/)
-
----
