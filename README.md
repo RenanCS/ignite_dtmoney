@@ -18,7 +18,7 @@
 
 ## 💻 Sobre o projeto
 
-O projeto consiste em uma solução Web para o cadastro de crédito e débito no LocalStorage.
+O projeto consiste em uma solução Web para o cadastro de crédito e débito utilizando Miragejs como api.
 
 ---
 
