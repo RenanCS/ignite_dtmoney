@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Ignite Money 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	🚧  Ignite ♻️ Em Andamento 🚀 🚧
+</h4>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-contribuidores">Contribuidores</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `yarn start`
+O projeto consiste em uma solução Web para o cadastro de crédito e débito no LocalStorage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Funcionalidades
 
-### `yarn test`
+- [] Cadastrar Contas
+- [] Filtrar Contas pelo nome
+- [x] Listar Contas
+- [ ] Editar Pacientes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 🚀 Como executar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 🎲 Rodando o Backend (servidor)
 
-### `yarn eject`
+```bash
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Clone este repositório
+$ git clone https://github.com/RenanCS/ignite_dtmoney.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd ignite_dtmoney
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Instale as dependências
+$ npm install
+# ou
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+$ yarn start
 
-## Learn More
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+---
+
+## 🛠 Tecnologias
+
+**Server** ([ReactJS](https://pt-br.reactjs.org/))
+
+- **[React-Router-dom](https://reactrouter.com/web/guides/quick-start)**
+- **[Styled-Components](https://styled-components.com/)**
+
+
+> Veja o arquivo [package.json](https://github.com/felipemimoura/interprocess/blob/main/package.json)
+
+
+---
+
+## 🦸 Autor
+
+
+ <img style="border-radius: 50%;" src="https://github.com/felipemimoura.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Felipe Moura</b></sub>
+ <br />
+
+ [![Linkedin Badge](https://img.shields.io/badge/-FelipeMoura-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipemmoura//)](https://www.linkedin.com/in/felipemmoura/)
+[![Gmail Badge](https://img.shields.io/badge/-felipemimoura@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipemimoura@gmail.com)](mailto:felipemimoura@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Felipe Moura 👋🏽 [Entre em contato!](https://www.linkedin.com/in/felipemmoura/)
+
+---
