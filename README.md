@@ -67,7 +67,7 @@ $ yarn start
 ## 🛠 Tecnologias
 
 **Server** ([ReactJS](https://pt-br.reactjs.org/))
-
+- **[Miragejs](https://miragejs.com/)**
 - **[React-Router-dom](https://reactrouter.com/web/guides/quick-start)**
 - **[Styled-Components](https://styled-components.com/)**
 
