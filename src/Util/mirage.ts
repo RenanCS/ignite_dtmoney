@@ -31,7 +31,8 @@ export function CreateServerMirage() {
 
         routes() {
             this.namespace = '/api/v1/';
-
+            this.passthrough();
+            
             this.get('/transactions', () => {
                 return this.schema.all('transaction');
             })
