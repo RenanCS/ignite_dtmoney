@@ -7,6 +7,5 @@ export function FormatAmount(value: number) {
 }
 
 export function FormatDate(value: Date){
-    debugger;
    return new Intl.DateTimeFormat('pt-br').format(new Date(value));
 }
