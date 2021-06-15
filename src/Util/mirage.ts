@@ -31,7 +31,6 @@ export function CreateServerMirage() {
 
         routes() {
             this.namespace = '/api/v1/';
-            this.passthrough("https://rcstiignitemoney.netlify.app/**");
             this.passthrough("https://rcstiignitemoney.netlify.app/api/v1/**");
             this.passthrough("/transactions");
 
