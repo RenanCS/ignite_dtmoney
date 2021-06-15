@@ -20,6 +20,8 @@
 
 O projeto consiste em uma solução Web para o cadastro de crédito e débito utilizando Miragejs como api.
 
+Site: https://rcstiignitemoney.netlify.app/
+
 ---
 
 ## ⚙️ Funcionalidades
@@ -27,7 +29,7 @@ O projeto consiste em uma solução Web para o cadastro de crédito e débito ut
 - [ ] Cadastrar Contas
 - [ ] Filtrar Contas pelo nome
 - [x] Listar Contas
-- [ ] Editar Pacientes
+- [ ] Editar Contas
 
 ---
 

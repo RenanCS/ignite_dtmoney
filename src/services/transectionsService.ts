@@ -1,7 +1,12 @@
+import { AccountProps } from '../components/NewTransactionModal';
 import { api } from './api';
 
 export async function GetTransactionsAsync(){
-      const res =   api.get('transactions');
-     return await res.then(response => response.data);
- 
+     return  await api.get('transactions')
+     .then(response => response.data.transactions);
+}
+
+export async function SaveTransaction(data: AccountProps){
+    return await api.post('transactions',data)
+    .then(reponse => reponse.status > 200);
 }

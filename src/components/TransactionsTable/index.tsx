@@ -1,15 +1,19 @@
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { GetTransactionsAsync } from '../../services/transectionsService';
+import { FormatAmount, FormatDate } from '../../Util/formater';
+import { AccountProps } from '../NewTransactionModal/index';
 import { Container } from './styles';
 
 export function TransactionsTable() {
-    
+
+    const [transactions, setTransactions] = useState<AccountProps[]>([]);
+
     const transactionsAsync = async () => {
         const novoValor = await GetTransactionsAsync();
-        return novoValor;
+        setTransactions(novoValor);
     }
-    
+
     useEffect(() => {
         transactionsAsync();
     }, []);
@@ -26,20 +30,16 @@ export function TransactionsTable() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td className="deposit">R$ 1.000,00</td>
-                        <td>Desenvolvimento</td>
-                        <td>20/02/2021</td>
-                    </tr>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td className="withdraw">-R$ 500,00</td>
-                        <td>Desenvolvimento</td>
-                        <td>20/02/2021</td>
-                    </tr>
-
-
+                    {
+                        transactions.map((transaction: AccountProps) => {
+                            return (<tr key={transaction.id}>
+                                <td>{transaction.title}</td>
+                                <td className={transaction.type}>{FormatAmount(transaction.amount)}</td>
+                                <td>{transaction.category}</td>
+                                <td>{FormatDate(transaction.createdAt)}</td>
+                            </tr>
+                            )
+                        })}
                 </tbody>
             </table>
 
