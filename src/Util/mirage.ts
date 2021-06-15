@@ -30,7 +30,7 @@ export function CreateServerMirage() {
         },
 
         routes() {
-            this.namespace = '/api/v1/';
+            this.namespace = '';
             this.passthrough("/transactions");
 
             this.get('/transactions', () => {
