@@ -2,7 +2,7 @@ import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import totalImg from '../../assets/total.svg';
 import { useTransactions } from '../../hooks/useTransactions';
-import { FormatAmount } from '../../util/formater';
+import { FormatAmount } from '../../helper/formater';
 import { Container } from './styles';
 
 

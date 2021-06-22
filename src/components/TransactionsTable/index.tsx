@@ -1,6 +1,6 @@
 
 import { Transactions, useTransactions } from '../../hooks/useTransactions';
-import { FormatAmount, FormatDate } from '../../util/formater';
+import { FormatAmount, FormatDate } from '../../helper/formater';
 import { Container } from './styles';
 
 export function TransactionsTable() {
