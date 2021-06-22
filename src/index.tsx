@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';
-import { CreateServerMirage } from './Util/mirage';
+import { CreateServerMirage } from './util/mirage';
 
 CreateServerMirage();
 

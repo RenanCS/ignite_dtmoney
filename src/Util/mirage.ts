@@ -1,12 +1,14 @@
 import { createServer, Model } from 'miragejs';
 
 export function CreateServerMirage() {
+    const namespace = process.env.REACT_APP_NODE_ENV === "development" ? "api" : "";
+  
     createServer({
         models: {
             transaction: Model,
         },
 
-        seeds(server){
+        seeds(server) {
             server.db.loadData({
                 transactions: [
                     {
@@ -22,15 +24,15 @@ export function CreateServerMirage() {
                         title: 'Aluguel',
                         type: 'withdraw',
                         category: 'Casa',
-                        amount: -1100,
+                        amount: 1100,
                         createdAt: new Date('2021-03-20 12:30:00'),
                     }
-                ] 
+                ]
             })
         },
 
         routes() {
-            this.namespace = '';
+            this.namespace = namespace;
             this.passthrough("/transactions");
 
             this.get('/transactions', () => {

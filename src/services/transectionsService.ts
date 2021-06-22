@@ -1,12 +1,13 @@
-import { AccountProps } from '../components/NewTransactionModal';
+
+import { TransactionInput } from '../hooks/useTransactions';
 import { api } from './api';
 
-export async function GetTransactionsAsync(){
+export async function getTransactionsAsync(){
      return  await api.get('transactions')
      .then(response => response.data.transactions);
 }
 
-export async function SaveTransaction(data: AccountProps){
+export async function saveTransactionAsync(data: TransactionInput){
     return await api.post('transactions',data)
-    .then(reponse => reponse.status > 200);
+    .then(reponse => reponse);
 }
