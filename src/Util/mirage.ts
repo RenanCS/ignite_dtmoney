@@ -1,7 +1,8 @@
 import { createServer, Model } from 'miragejs';
 
 export function CreateServerMirage() {
-    const namespace = process.env.REACT_APP_NODE_ENV === "development" ? "api" : "";
+    const hasEnviroment= !!process.env.REACT_APP_NODE_ENV
+    const namespace = hasEnviroment &&  process.env.REACT_APP_NODE_ENV === "development" ? "api" : "";
   
     createServer({
         models: {
