@@ -26,10 +26,8 @@ Site: https://rcstiignitemoney.netlify.app/
 
 ## ⚙️ Funcionalidades
 
-- [ ] Cadastrar Contas
-- [ ] Filtrar Contas pelo nome
+- [x] Cadastrar Contas
 - [x] Listar Contas
-- [ ] Editar Contas
 
 ---
 
