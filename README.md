@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Ignite ♻️ Em Andamento 🚀 🚧
+	🚧  Ignite ♻️ Concluído 🚀 🚧
 </h4>
 
 <p align="center">
@@ -20,7 +20,8 @@
 
 O projeto consiste em uma solução Web para o cadastro de crédito e débito utilizando Miragejs como api.
 
-Site: https://rcstiignitemoney.netlify.app/
+Site: https://rcsti-ignitemoney.netlify.app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1919f1d-6a74-4bfa-b392-4c820387e7c0/deploy-status)](https://app.netlify.com/sites/rcsti-ignitemoney/deploys)
 
 ---
 
